@@ -1,17 +1,17 @@
 ---
 # Display name
-title: 吳健雄
+title: Manuel Brack
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+#name_pronunciation: Manuel Brack
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Manuel
+last_name: Brack
 
 # Status emoji
 status:
-  icon: ☕️
+  icon: 
 
 # Is this the primary user of the site?
 superuser: true
@@ -20,69 +20,72 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Chief Scientist
+role: Research Scientist
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: OpenAI
-    url: https://openai.com/
+  - name: German Research Center for AI (DFKI)
+    url: https://www.dfki.de/en/web
+  - name: AI&ML Lab at TU Darmstadt
+    url: https://www.aiml.informatik.tu-darmstadt.de
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
-  - icon: at-symbol
-    url: 'mailto:your-email@example.com'
-    label: E-mail Me
+  #- icon: at-symbol
+  #  url: 'mailto:your-email@example.com'
+  #  label: E-mail Me
   - icon: brands/x
-    url: https://twitter.com/GetResearchDev
-  - icon: brands/instagram
-    url: https://www.instagram.com/
+    url: https://x.com/MBrack_AIML
+  #- icon: brands/instagram
+  #  url: https://www.instagram.com/
   - icon: brands/github
-    url: https://github.com/gcushen
+    url: https://github.com/manuelbrack
   - icon: brands/linkedin
-    url: https://www.linkedin.com/
+    url: https://www.linkedin.com/in/manuel-brack-17b07718b/
   - icon: academicons/google-scholar
-    url: https://scholar.google.com/
-  - icon: academicons/orcid
-    url: https://orcid.org/
+    url: https://scholar.google.com/citations?user=kJ9Abf8AAAAJ&hl=en
+  #- icon: academicons/orcid
+  #  url: https://orcid.org/
 
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Large Language Models
+  - Multimodal Generative AI
+  - Text-to-Image Genration
+  - Steerability & Safety
 
 education:
-  - area: PhD Artificial Intelligence
-    institution: Stanford University
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+  - area: PhD (Dr. rer. nat.) Artificial Intelligence
+    institution: Technical University Darmstadt
+    date_start: 2022-10-01
+    date_end: 2024-12-31
     summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
+      Thesis titled _Instructing Generative Image Models - From Semantics to Society_. Supervised by Prof. Kristian Kersting. Co-authored over 10 original papers that are published at top venues.
+    #button:
+    #  text: 'Read Thesis'
+    #  url: 'https://example.com'
+  - area: M.Sc. Computer Science
+    institution: Technical University Darmstadt
+    date_start: 2020-04-01
+    date_end: 2022-07-31
+    summary: |
+      GPA: 1.0 (with honors) (German Grading)
+
+      My courses focused on Artificial Intelligence and Deep Learning. Thesis on _Rationalizing Vision-Language Models through Human Interactions_ published at ICML.
     button:
       text: 'Read Thesis'
-      url: 'https://example.com'
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+      url: 'https://arxiv.org/pdf/2208.08241'
+  - area: B.Sc. Computer Science
+    institution: Technical University Darmstadt
+    date_start: 2022-04-15
+    date_end: 2016-10-01
     summary: |
-      GPA: 3.8/4.0
+      GPA: 1.5 (German Grading)
 
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.4/4.0
-      
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      Thesis on _Software Vulnerability Lifetimes_ published at Usenix Security.
+    button:
+      text: 'Read Thesis'
+      url: 'https://www.usenix.org/system/files/sec22-alexopoulos.pdf'
 work:
   - position: Director of Cloud Infrastructure
     company_name: GenCoin
@@ -183,4 +186,5 @@ awards:
 
 ## About Me
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+I am a Research Scientist at the DFKI [SAINT Lab](https://www.dfki.de/en/web/research/research-departments/foundations-of-systems-ai) and the [Artificial Intelligence & Machnine Learning Lab](https://ml-research.github.io) at TU Darmstadt, both headed by [Prof. Kristian Kersting](https://ml-research.github.io/people/kkersting/).
+ My research focuses on large-scale generative models at the intersection of natural language and computer vision
